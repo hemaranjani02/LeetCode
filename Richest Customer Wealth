@@ -1,0 +1,15 @@
+class Solution(object):
+    def maximumWealth(self, accounts):
+        """
+        :type accounts: List[List[int]]
+        :rtype: int
+        """
+        sum=0
+        for arr in accounts:
+            print(arr)
+            sum+=arr.list
+
+        #return max([sum(arr) for arr in accounts])
+
+obj=Solution()
+obj.maximumWealth([[1,2],[2,3]])
